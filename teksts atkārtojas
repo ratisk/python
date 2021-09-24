@@ -1,0 +1,2 @@
+text = input("ievadi tekstu: ")
+print (3*text)
