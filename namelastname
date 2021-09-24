@@ -1,0 +1,3 @@
+name = input("ievadi savu vārdu: ")
+lastname = input("ievadi savu uzvārdu: ")
+print (lastname+" "+name)
