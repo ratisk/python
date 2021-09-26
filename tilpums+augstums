@@ -1,0 +1,6 @@
+x = int(input("ievadi augstumu: "))
+x_2 = int(input("ievadi rādiusu: "))
+volume = str(3.14*x_2*x_2*x)
+area = str(2*(3.14*x_2*x_2)+x*(2*3.14*x_2))
+print ("volume: ",volume)
+print ("area: ",area)
