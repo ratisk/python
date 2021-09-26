@@ -1,3 +1,5 @@
-x = input("ievadi skaitli: ")
-sum = int(x) + int(x+x) + int(x+x+x)
-print (sum)
+x = int(input("ievadi skaitli: "))
+fig_1 = str(x)
+fig_2 = str(x+x)
+fig_3 = str(x+x+x)
+print(int(fig_1),"+",str(fig_1+fig_1),"+",int(fig_1+fig_1+fig_1),"=",int(fig_1+fig_2+fig_3))
