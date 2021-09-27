@@ -1,0 +1,5 @@
+number = int(input("ievadi sekunžu skaitu: "))
+hours = number // 360
+minutes = (number - 360*hours) //60
+seconds = (number - 360*hours - 60*minutes)
+print(hours, "hours", minutes, "minutes", seconds, "seconds")
