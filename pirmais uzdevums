@@ -1,0 +1,10 @@
+# Patstāvīgais darbs 23.09.2021
+# Pirmais uzdevums
+
+n_1 = int(input("ievadi pirmo skaitli: "))
+n_2 = int(input("ievadi otro skaitli: "))
+
+print(n_1,"+",n_2,"=",n_1+n_2)
+print(n_1,"-",n_2,"=",n_1-n_2)
+print(n_1,"*",n_2,"=",n_1*n_2)
+print(n_1,"/",n_2,"=",n_1/n_2)
