@@ -1,0 +1,6 @@
+# Patstāvīgais darbs 23.09.2021
+# trešais uzdevums
+
+mylist = ["Merkūrijs", "Venēra", "Zeme", "Mars", "Mars", "Jupiters", "Urāns", "Neptūns", "Zeme"]
+mylist = list(dict.fromkeys(mylist))
+print(mylist)
