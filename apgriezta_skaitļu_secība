@@ -1,0 +1,10 @@
+# Patstāvīgais darbs 23.09.2021
+# Piektais uzdevums
+
+num = int(input("Ievadi skaitļus: "))
+temp_num = 0
+while(num>0):
+  remainder = num % 10
+  temp_num = (temp_num * 10) + remainder
+  num = num//10
+print("{}".format(temp_num ))
