@@ -1,0 +1,13 @@
+# Patstāvīgais darbs 23.09.2021
+# ceturtais uzdevums
+
+a = float(input("Ievadi pirmo skaitli: "))
+b = float(input("ievadi otro skaitli: "))
+
+if a > b:
+    print("Vai",a,"ir lieāks par",b,"?")
+    print("jā")
+
+elif a < b:
+    print("Vai", a, "ir lieāks par", b, "?")
+    print("nē")
